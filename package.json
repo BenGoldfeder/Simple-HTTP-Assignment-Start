@@ -1,0 +1,29 @@
+{
+    "name": "simple-http-assignment-start",
+    "version": "1.0.0",
+
+    "engines": {
+        "node": "12.18.3",
+        "npm": "6.14.6"
+    },
+
+    "description": "Basic HTTP Server",
+    "main": "./src/server.js",
+    "scripts": {
+
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+
+        "test": "echo \"Tests complete\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BenGoldfeder/Simple-HTTP-Assignment-Start.git"
+    },
+    "author": "Benjamin Goldfeder",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/BenGoldfeder/Simple-HTTP-Assignment-Start/issues"
+    },
+    "homepage": "https://github.com/BenGoldfeder/Simple-HTTP-Assignment-Start#readme"
+}

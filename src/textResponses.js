@@ -1,9 +1,9 @@
 const hello = 'Hello World';
 
 const getTimeString = () => {
-    const d = new Date();
-    const dateString = `${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
-    return dateString;
+  const d = new Date();
+  const dateString = `${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
+  return dateString;
 };
 
 const getTime = (request, response) => {
